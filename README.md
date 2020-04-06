@@ -1,3 +1,32 @@
+Iniciar um novo arquivo:
+CMD
+Ng new nome-do-arquivo
+ex: ng new angular-8
+Entrar no Vs code
+Abrir o folder com o nome da pasta
+New Terminal
+Ng Serve
+
+Adicionar Pasta no Github atráves do Git
+Git Bash (ADM)
+C:/Pasta/Pasta (Pasta do arquivo MESMO)
+git init
+git add . (todos os arquivos)
+git commit -m "Comentários"
+git remote add origin (nome do repositorio do github, copie e dê insert no git para colar)
+git push -u origin master
+
+
+*Caso dê um erro de index.lock no git
+CMD:
+cd C:/Pasta/Pasta
+cd .git
+del index.lock*
+
+
+
+
+
 # TesteAngular
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
